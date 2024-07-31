@@ -9,8 +9,12 @@
 }
 
 .display{
+    display: flex;
+    justify-content: right;
+    align-items: center;
     height:100px;
     width:397px;
+    font-size: 60px;
     border-style: solid;
     border-color:black;
     background-color: #6d6d6d;
@@ -42,6 +46,6 @@
     border-color: black;
 }
 
-#operator{
+#operator, #equals, #clear{
     background-color: #545454;
 }
