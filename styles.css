@@ -1,0 +1,47 @@
+*{
+    font-family: "Roboto", sans-serif;
+    color: #dddddd;
+}
+.body{
+    height: 600px;
+    width: 400px;
+    margin: auto;
+}
+
+.display{
+    height:100px;
+    width:397px;
+    border-style: solid;
+    border-color:black;
+    background-color: #6d6d6d;
+}
+
+.buttonLayout{
+    height: 410px;
+    width: 400px;
+    align-items: center;
+    margin: auto;
+}
+
+.buttonRow{
+    height: 100px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.button{
+    width: 99px;
+    height: 99px;
+    border-radius: 0px;
+    font-size: 30px;
+    font-weight: lighter;
+    background-color: #303030;
+    border-color: black;
+}
+
+#operator{
+    background-color: #545454;
+}
